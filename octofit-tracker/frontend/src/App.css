@@ -1,0 +1,85 @@
+
+body {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%);
+  color: #22223b;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #d7263d 0%, #d49294 100%) !important;
+  box-shadow: 0 2px 8px rgba(215, 38, 61, 0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand img {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(215, 38, 61, 0.08);
+}
+
+.card-title {
+  color: #d7263d;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+table {
+  background: #fff5f5;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table-primary th {
+  background: #d7263d !important;
+  color: #fff !important;
+}
+
+th, td {
+  color: #22223b;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #d7263d 0%, #ff595e 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #ff595e 0%, #d7263d 100%);
+  color: #ffd700;
+}
+
+a, .App-link {
+  color: #d7263d;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover, .App-link:hover {
+  color: #ff595e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d7263d;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Custom favicon (handled in public/index.html) */
